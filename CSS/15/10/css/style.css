@@ -1,0 +1,33 @@
+.d-flex {
+    display: flex;
+}
+
+.split {
+    justify-content: space-between;
+}
+
+.align {
+    align-items: center;
+}
+
+#logo {
+    width: 100px;
+    padding: 0px 0px 0px 20px;
+}
+
+.navi {
+    padding: 20px;
+}
+
+#image1 {
+    width: 400px;
+    padding: 50px;
+}
+
+section {
+    background-color: grey;
+}
+
+.center {
+    justify-content: center;
+}

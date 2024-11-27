@@ -1,0 +1,46 @@
+
+form {
+    border: 1px solid black;
+    
+}
+
+.w-50 {
+    width: 50%;
+
+}
+
+input, select {
+    height: 20px;
+    padding: 0px 10px 0px 10px;
+    margin: 0px 5px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+.input-container {
+    margin: 10px 0px;
+}
+
+.fin {
+    margin: 3px;
+    height: 40px;
+    font-weight: 600;
+}
+
+textarea {
+    height: 18px;
+}

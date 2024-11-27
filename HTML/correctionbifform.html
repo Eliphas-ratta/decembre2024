@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Formulaire d'inscription</h1>
+
+    <form action="">
+
+        <div>
+            <label for="firstName">Prénom:</label>
+            <input required placeholder="Renseignez votre prénom" type="text" name="firstName" id="firstName">
+
+            <label for="name">Nom:</label>
+            <input required placeholder="Renseignez votre nom" type="text" name="name" id="name">
+        </div>
+
+        <div>
+            <label for="birthDate">Date de naissance :</label>
+            <input required placeholder="Renseignez votre date de naissance" type="date" name="birthDate" id="birthDate">
+
+            <label for="phoneNumber">Votre num :</label>
+            <input required placeholder="Renseignez votre téléphone" type="tel" name="phoneNumber" id="phoneNumber">
+        </div>
+
+        
+        <div>
+            <label for="city">Ville :</label>
+            <input required list="cities" name="city" id="city">
+            <datalist id="cities">
+                <option value="Paris">
+                <option value="Joint-ville le Pont">
+                <option value="Igny">
+                <option value="Massy">
+                <option value="Palaiseau">
+            </datalist>
+
+            <label for="country">Pays:</label>
+            <select required name="country" id="country">
+                <option disabled selected hidden>Choisissez un pays</option>
+                <option value="France">France</option>
+                <option value="vietnam">Vietnam</option>
+                <option value="maroc">Maroc</option>
+                <option value="syrie">Syrie</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="address">Votre adresse</label>
+
+            <textarea required id="address" name="address" rows="4" cols="50">
+                Renseignez votre adresse.
+            </textarea>
+
+            <label for="postalCode">Code Postal:</label>
+            <input required placeholder="Renseignez votre code postal" type="text" name="postalCode" id="postalCode">
+        </div>
+
+        <div>
+            <label>Civilité :</label>
+            <input type="radio" checked id="female" name="sexe" value="female">
+            <label for="female">Femme</label>
+            <input type="radio" id="male" name="sexe" value="male">
+            <label for="male">Homme</label>
+            <input type="radio" id="nonBinary" name="sexe" value="nonBinary">
+            <label for="nonBinary">Non binaire</label>
+        </div>
+
+        <div>
+            <label>Comment avez-vous entendu parler de nous? :</label>
+            <input type="checkbox" checked id="ads" name="ads" value="Bike">
+            <label for="ads"> Une publicité</label><br>
+            <input type="checkbox" id="friend" name="friend" value="Car">
+            <label for="friend"> Un ami</label><br>
+            <input type="checkbox" id="mektoub" name="mektoub" value="Boat">
+            <label for="mektoub"> Le destin</label><br>
+        </div>
+
+        <div>
+            <label for="email">Email :</label>
+            <input required placeholder="Renseignez votre email" type="email" name="email" id="email">
+
+            <label for="pwd">Votre num :</label>
+            <input required placeholder="Renseignez votre mot de passe" type="password" name="pwd" id="pwd">
+        </div>
+
+        <div>
+            <label for="avatar">Avatar :</label>
+            <input type="file" id="avatar" name="avatar">
+        </div>
+
+        <div>
+            <label for="grade">Sur une échelle de 1 à 5, combien donneriez-vous à ce formulaire?</label>
+            <input required type="range" id="grade" name="grade" min="1" max="5" />
+        </div>
+          
+        <div>
+            <label for="themeColor">Sélectionner la couleur de votre thème:</label>
+            <input type="color" id="themeColor" name="themeColor" value="#ff0000">
+        </div>
+
+        <div>
+            <input type="submit" value="S'inscrire">
+            <input type="reset" value="Recommencer">
+        </div>
+
+    </form>
+    
+</body>
+</html>

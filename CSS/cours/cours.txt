@@ -1,0 +1,34 @@
+W3C :  ceux qui font les regles pour le web
+
+utf8 : 'UTF-8 (Unicode Transformation Format - 8 bits) est un standard d'encodage de caractères conçu pour représenter
+ l'ensemble des caractères du système Unicode tout en restant compatible avec les systèmes utilisant des octets (8 bits).
+  Il permet de coder chaque caractère en 1 à 4 octets, en fonction de la complexité du caractère.
+
+Voici un résumé très bref des formats d'image :
+
+PNG : Format sans perte de qualité, idéal pour les images avec transparence ou des détails précis, comme les logos.
+JPEG : Format compressé avec perte, très utilisé pour les photos, car il réduit la taille des fichiers tout en maintenant une qualité raisonnable.
+SVG : Format vectoriel, adapté pour les graphiques et logos évolutifs sans perte de qualité, parfait pour le web.
+WEBP : Format moderne combinant compression avec ou sans perte, offrant des fichiers plus petits que PNG et JPEG, optimisé pour le web.
+
+Balise HTML de Base :
+<h1> : Grand premier titre
+<h2> : Sous-titre principal
+<p> : Paragraphe de texte
+<a> : Lien hypertexte vers une autre page ou section
+<img> : Image intégrée à la page
+<ul> : Liste à puces non ordonnée
+<ol> : Liste numérotée
+<li> : Élément d'une liste (ul ou ol)
+<div> : Bloc de contenu, souvent utilisé pour organiser les sections
+<span> : Élément en ligne pour styliser une partie du texte
+<br> : Saut de ligne
+<strong> : Texte en gras, soulignant l'importance
+<em> : Texte en italique, pour l'emphase
+<input> : Champ de saisie dans un formulaire
+<form> : Formulaire pour la saisie de données
+<button> : Bouton interactif
+<table> : Table pour organiser des données en lignes et colonnes
+<th> : Cellule d'en-tête dans une table
+<td> : Cellule de données dans une table
+<footer> : Section de bas de page
